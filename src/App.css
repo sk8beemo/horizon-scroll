@@ -1,38 +1,85 @@
-.App {
+.mobile__wrapper {
+  background: #420037;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.mobile__row {
+  margin-top: 30px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+.mobile__row .card {
+  background: linear-gradient(#b5b2b4, #8e768a);
+  height: 100%;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  border-radius: 0 !important;
+}
+.mobile__row .col {
+  min-width: 25%;
+  padding: 0 !important;
+}
+.mobile__card-body {
+  padding: 0 !important;
+}
+.mobile__card-body__active {
+  background-color: #f600cd !important;
+}
+.mobile__card-title {
+  margin-bottom: 0 !important;
+  font-size: 12px !important;
+}
+.mobile__card-text {
+  text-align: left;
+  color: #fff;
+  font-weight: 600 !important;
+  font-size: 7px !important;
+}
+.mobile__module-info {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #fc00d2;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.mobile__lesson {
+  padding: 15px !important;
+}
+
+.mobile__lesson-title {
+  font-size: 14px !important;
+  color: #fc00d2;
+}
+.mobile__lesson-title span {
+  color: #000;
+}
+.mobile__lesson-text {
+  font-size: 12px !important;
+}
+.mobile__lessons-row .col {
+  min-width: 84vw;
+  max-width: 84vw;
+}
+.mobile__lessons-row .card {
+  background: linear-gradient(90deg, #ffffff, #c6c6c6);
+}
+.mobile__lesson-btnText {
+  border-radius: 25px;
   text-align: center;
+  background-color: #fc00d2;
+  color: #fff;
+  font-size: 14px !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mobile__lesson img {
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mobile__lessons-row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: nowrap !important;
+  overflow-x: auto;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mobile__lessons-row .col {
+  flex: 0 0 auto;
 }
